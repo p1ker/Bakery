@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family:"Roboto!";
+    src: local("Roboto");
+    src: url(../font/Roboto-Regular.ttf);
+} */
+
+p{
+    color: black;
+}
+
+body{
+    background-color: #FFE2B0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+}
+
+li:last-child{
+    margin-right: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+} 
+
+nav{
+    margin-bottom: 20px;
+}
+
+.section-about{
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center/cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-about__block{
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8)0%, rgba(234,156,65,0.8)100%);
+    position:absolute;
+    top: 54.53125%;
+    left: 50.6944%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-about__border{
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+}
+
+.section-about__title{
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.section-about__text{
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-description{
+    margin: 20px;
+}
+
+.section-description__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img{
+    margin-right: 76px;
+    height: 290px;
+    width: 290px;
+}
+
+.section-description__icon-box img:last-child{
+    margin-right: 0px;
+}
+
+.section-description__title{
+    text-align: center;
+    font-size: 96px;
+    margin: 0px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.red{
+    color: #F15B40;
+}
+
+.section-description__text{
+    margin:0px;
+    width: 1000px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.section-map__title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.section-map{
+    margin-bottom: 20px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 80px;
+}
+
+h1{
+    font-family: "Roboto!";
+}
